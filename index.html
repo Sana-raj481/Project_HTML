@@ -1,0 +1,288 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>AFORV Private Limited</title>
+</head>
+<body>
+<!-- <h1> <h2>head lines , <p> paragraph , <br> line brake and (&nbsp) space b/w test  -->
+<h1>Welcome to Aforv</h1>
+<p>Congratulation your selected, offer letter will be issue on tomorrow</p>
+<br> 
+<h2> onbording on &nbsp&nbsp monday</h2>
+<!-- &nbsp&nbsp is used to add the space b/w the text -->
+<p style = "color: blue;"> working on html conceps </p> 
+
+<!-- Unordered list <ul> -> it used when the order of the items is doesn't matters,typically displayed with bullets points.
+  and ordered list <ol> -> it used when the order of the items is important,display with numbers or letters.
+ and  <li> is used to list the item for each. -->
+ <ul>
+    <li>HTML </li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+ </ul>
+ <ol>
+    <li>HTML </li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+ </ol>
+
+<!-- Creating a table 
+<table>: Contains the whole table.
+<tr>: Represents a table row.
+<th>: Represents a header cell, which is bold and centered by default.
+<td>: Represents a standard data cell in a row.-->
+
+   <table>
+<tr>
+    <th> Java </th>
+    <th> Springboot </th>
+    <th> SQL </th>
+</tr>
+<tr>
+    <td>opps</td>
+    <td>Annotiation</td>
+    <td>query</td>
+</tr>
+<tr>
+    <td>multithread</td>
+    <td>curd</td>
+    <td>datalist </td>
+</tr>
+   </table> 
+   <br>
+<!-- Creating the Web Link
+<a>: The anchor tag that defines the link.
+href: The attribute that specifies the destination URL (Uniform Resource Locator) of the link. -->
+<p> please click on this link </p>
+<a href="https://www.javatpoint.com/html-link-tag"> section1 </a>
+
+<!--Creating links within the same web page
+Links: The links in the table of contents use the href attribute with the value #java, #ahtml, (or #section3). 
+The # symbol followed by the id attribute of a section indicates that clicking the link should scroll the page to that section.
+-->
+
+<ul>
+    <li> <a href="#Java">Java Section</a></li>
+    <li> <a href="#HTML">HTML Section</a></li>
+</ul>
+<br><br><br><br><br><br><br><br><br><br>
+<p> <a name="java"> This is the artical about Java. </a> </p>
+<br><br><br><br><br><br><br><br><br><br>
+
+<p> <a name="HTML"> This is the artical about HTML. </a> </p>
+
+
+<!-- Adding a Image to a web page
+ To add an image to a webpage in HTML, you use the <img> tag. This tag is used to embed an image and it doesn't require a closing tag. The main attribute used in the <img> tag is src, which specifies the source (URL) of the image.
+src: Points to the image source (it can be a local file path or a URL).
+alt: Provides a text alternative that is displayed if the image fails to load or for screen readers.
+-->
+<!--resizing and Sizing image
+width="400": Sets the width of the image to 400 pixels.
+height="300": Sets the height of the image to 300 pixels.
+-->
+<h1> Washington </h1>
+<p><img src="Image.jpg" alt="Image" width="200" height="200"></p>
+
+<!-- one line text box
+ To create a one-line text box in HTML, you use the <input> tag with the type="text" attribute. This creates a simple, one-line text field where users can type text.
+<input type="text">: Creates a one-line text box.
+id="username": Provides a unique identifier for the input field.
+name="username": Specifies the name of the input field, which is used when submitting the form data.
+placeholder="Enter your username": Displays placeholder text inside the input field until the user starts typing. It helps guide the user on what to enter.
+<form> element in HTML is used to collect user input and send it to a server for processing. It can contain various input fields, buttons, and other elements that allow users to interact with the form.
+    -->
+    <form action="Submit the form" method="">
+        <b>one line text box </b><br>
+<input type="text" name="" size="50" ><!--input elemets go here-->
+<br><br>
+<input type="text" name="">
+</form>
+<br><br>
+
+<!--used for multi line text box and submit click-->
+<b>multi line text box </b><br>
+FeedBack: <br><br>
+<textarea name="" id="" rows="10" cols="40"></textarea><br>
+<input type="submit" value="Submit" >
+<br><br>
+
+<!--add Label to the text box
+<label>: Provides a description for the form input fields, improving accessibility
+    -->
+    <form action="Submit the form" method="">
+        <b>Add Label to the text box </b><br>
+        <label for="firstname">First Name </label>
+        <input type="text" id="firstname" name="" ><!--input elemets go here-->
+        <br><br>
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="">
+        </form><br><br>
+
+<!-- Redio Button -> to selet the one choice in the list-->
+<form action="" method="">
+    <b>Redio Button </b><br>
+    Yes:
+    <input type="radio" name="yesorno" value="" >
+    <br><br>
+    No:
+    <input type="radio" name="yesorno" value="">
+    </form>
+    <br><br>
+
+ <!--CheckBox-->
+<form action="" method="">
+   <h3>select the options below checkbox </h3>
+    <input type="checkbox" name="" value="" > JAVA
+    <br><br>
+    <input type="checkbox" name="" value=""> HTML
+    <br><br>
+    <input type="checkbox" name="" value=""> CSS
+    </form>
+    <br><br>
+
+<!-- Number input box-->
+<form action="" method="">
+    <h3>Number input box </h3>
+     <input type="number" min="0" max="50" > 
+     </form>
+     <br><br>
+
+<!--Drop down List
+A dropdown list in HTML is created using the <select> element. This allows the user to choose one option from a list of predefined options. It is typically used in forms where there are multiple choices, and you want to display them in a compact, scrollable list.
+   <option>: Represents each item in the dropdown list.
+   <select>: Defines the dropdown list itself.-->
+<form action="" method="">
+    <h3>dropdown list </h3>
+    <select size="auto" >
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Russia">Russia</option>
+        <option value="Paries">Paries</option>
+    </select>
+    </form>
+    <br><br>
+
+    <!--Data and Numbers
+    <b> used for bold letter-->
+<form>
+<b><i>Data and Numbers</b></i><br>
+   Enter the day you want to travel:
+   <input type="date" name="day"> <br>
+   Number of days: <input type="number" name="numdays" min="0" max="10">
+</form>
+<br><br>
+
+<!-- Fieldbox and Legend
+ <fieldset>:
+The <fieldset> element is used to group related elements in a form. It creates a box around the grouped form elements, which is visually helpful and also semantically meaningful. It helps users to understand that the form elements inside the <fieldset> are related to each other.
+
+<legend>:
+The <legend> element is used to provide a caption or title for the group of elements within the <fieldset>. It is usually displayed at the top of the fieldset box.-->
+    <!--<fieldset>-->
+    <form>
+        <fieldset>
+            <b> Fieldset and Legend</b><br>
+       Enter the day you want to travel:
+        <input type="date" name="day"> <br>
+        Number of days: <input type="number" name="numdays" min="0" max="10">
+     <br><br>
+     Name: <input type="text" name="" id="">
+    </fieldset>
+</form>
+<!--<legend>-->
+<form>
+    <fieldset>
+<legend><b>Travel Agency(legend)</legend></b>
+    Enter the day you want to travel:
+    <input type="date" name="day"> <br>
+    Number of days: <input type="number" name="numdays" min="0" max="10">
+ <br><br>
+ Name: <input type="text" name="" id="">
+</fieldset>
+</form><br><br>
+
+<!-- Attributes 
+ In HTML, attributes provide additional information about HTML elements. They define properties and configure how elements behave or appear. Attributes are always written inside the opening tag of an element and are defined by a name-value pair.
+ 
+ Global Attributes:
+There are several global attributes in HTML that can be applied to any element. Some of the most commonly used global attributes include:
+
+id: Unique identifier for an element.
+class: Specifies one or more class names for an element.
+style: Inline CSS styles for an element.
+title: Provides extra information about an element (shown as a tooltip).
+lang: Specifies the language of the element's content.
+data-*: Custom data attributes that can store extra information (e.g., data-info="value").
+href specifies the URL of the link.
+target="_blank" makes the link open in a new tab or window.
+title shows a tooltip when the user hovers over the link.-->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--The Meta Element
+
+The <meta> element in HTML is used to provide metadata about the HTML document. Metadata is data that describes other data. The <meta> tag is placed inside the <head> section of an HTML document and doesn't directly affect the content or structure of the page that is visible to users. It provides information to browsers, search engines, and other web services.
+    -->
+    <head>
+        <title></title>
+        
+<meta name="description" content="this is the web pag about Aforv. we cover all the technologies here"/>
+<meta name="keywords" content="java, html, css">
+<meta http-equiv="author" content="langauage" content="en-us">
+</head>
+<br><br>
+<!--iframe elements
+The <iframe> (inline frame) element in HTML is used to embed another HTML document within the current page. Essentially, it allows you to embed external content, such as another webpage, a video, a map, or an interactive widget, inside your own webpage.
+    -->
+    <b>iframe element</b><br>
+    <iframe src="Image.jpg" name="ouriframe" id="ouriframe" frameborder="1" width="200" height="200">Do you see this</iframe>
+<br>
+<a href="Second.html" target="ouriframe">Switch to new docment</a>
+<br><br>
+
+<!--Bold and italic letters-->
+
+<strong> Meta Element   </strong>
+        <em> Meta Element   </em>
+        <br><br><br>
+
+<!--sup and sub elements
+The <sup> and <sub> elements in HTML are used to display text as superscript or subscript, respectively. These elements are typically used for mathematical formulas, chemical equations, and other scientific notation where characters need to be raised or lowered relative to the normal line of text.-->
+ <b><i>sup and sub elements</b></i><br>
+<p> This is about sup superscript elements 23 <sup>rd</sup></p>
+<p>There is plenty of H <sub>2</sub> O in the lake</p>
+<p>The value of pi is approximately 3.14 x 10<sup>2</sup>.</p>
+<p>We can write the equation for the speed of light as c = 3 x 10<sup>8</sup> m/s.</p> 
+<br><br>
+
+<!--Title and alt attribute-->
+<b> Title and alt attribute </b><br>
+<img src="Washington.png" title="Washington" alt="Washington" width="200" height="200">
+<br><br><br>
+
+<!--Audio elements
+three standard formates for web brwsers are .mp3 , .wav and .ogg-->
+<b>Audio elements</b><br>
+<audio controls="audiocontrols">
+    <source src="test.mp3"/>
+    <source src="test.wav"/>
+</audio><br><br>
+
+<b>Audio elements</b><br>
+<audio controls autoplay loop>
+    <source src="test.mp3"/>
+    <source src="test.wav"/>
+</audio><br><br>
+
+<!-- Video Elements
+ video formats use mp4 ,webm and .ogg videos-->
+ <b>Video Element</b><br><br>
+ <video>
+    <source src="test.mp4"/>
+    <source src="test.mp4"/>
+ </video>
+ <br><br>
+
+ 
+</body>
+</html>
